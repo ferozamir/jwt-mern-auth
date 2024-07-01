@@ -1,0 +1,68 @@
+h2 {
+    margin-bottom: 1em;
+    color: #333333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form>div {
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 0.8em;
+    width: 91%;
+    margin-bottom: 1em;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 1em;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #ff7e5f;
+}
+
+button {
+    padding: 0.8em;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff7e5f;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #feb47b;
+}
+
+button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 126, 95, 0.4);
+}
+
+/* Additional styles for a better look */
+.container p {
+    font-size: 0.9em;
+    color: #666666;
+}
+
+.container a {
+    color: #ff7e5f;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.container a:hover {
+    color: #feb47b;
+}
