@@ -38,7 +38,7 @@ const Signup = () => {
                 </div>
                 <button type="submit">Signup</button>
             </form>
-            <div style={{ marginTop: '10px' }}>Already have an account? <Link to={'/'}>Login</Link></div>
+            <div style={{ margin: '10px 0' }}>Already have an account? <Link to={'/'}>Login</Link></div>
         </div>
     );
 };
